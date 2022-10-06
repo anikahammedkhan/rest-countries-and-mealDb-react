@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Country = ({ country }) => {
-    const { name, flags, capital, region, population, ccn3 } = country;
+    const { name, flags, capital, region, ccn3 } = country;
     return (
         <div className="card w-full h-full bg-base-100 shadow-xl">
             <figure><img className='object-fit w-full' src={flags.png} alt="Shoes" /></figure>

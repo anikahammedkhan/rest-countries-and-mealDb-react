@@ -5,8 +5,7 @@ import { Link } from 'react-router-dom';
 const SingleCountry = () => {
     const singleData = useLoaderData();
     const countryData = singleData[0];
-    console.log(countryData)
-    const { name, flags, capital, continents, currencies, languages, population, region, timezones } = countryData;
+    const { name, flags, capital, continents, population, region, timezones } = countryData;
     return (
         <div className='w-1/2 mx-auto pt-4'>
             <div className='text-center font-bold text-4xl mb-8'>

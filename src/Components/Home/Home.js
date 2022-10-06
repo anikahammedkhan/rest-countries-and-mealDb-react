@@ -18,7 +18,7 @@ const Home = () => {
                 <div className='w-1/3 text-center'>
                     <h1 className='text-2xl font-semibold mb-4'>Got Tired Exploring Countries? <br />Let's Eat Some Food...</h1>
                     <Lottie animationData={food} />
-                    <button className='btn btn-success mt-4'><Link to='/meals'>Explore Meals</Link></button>
+                    <button className='btn btn-success mt-4'><Link to='/categories'>Explore Meals</Link></button>
                 </div>
             </div>
         </div>
